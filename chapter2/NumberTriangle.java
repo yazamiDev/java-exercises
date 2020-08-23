@@ -1,4 +1,6 @@
-/* Write for loops to produce the following output:
+/**
+ * Write for loops to produce the following output:
+ * 
  * 1
  * 22
  * 333

@@ -1,4 +1,5 @@
-/* Write a piece of code that uses a for loop to compute and print 
+/**
+ * Write a piece of code that uses a for loop to compute and print 
  * the first 12 Fibonacci numbers.
  * 
  * 1 1 2 3 5 8 13 21 34 55 89 144
