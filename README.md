@@ -1,6 +1,6 @@
 # Java Exercises
 
-This repository includes problems and solutions from the textbook, *Building Java Programs, 5th edition*.  
+This repository includes problems and solutions from the textbook, *Building Java Programs, 5th edition*. It serves as an environment for beginners as well as experienced programmers to learn, practice, and apply the java topics covered in the textbook. Enjoy learning!
 
 ## Topics
 
