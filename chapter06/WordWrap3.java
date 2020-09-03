@@ -8,9 +8,9 @@
  * output to the console.
  */
 
-public void wordWrap3(Scanner sc) {
-    while(sc.hasNextLine()) {
-        String line = sc.nextLine();
+public void wordWrap3(Scanner input) {
+    while(input.hasNextLine()) {
+        String line = input.nextLine();
         
         while(line.length() > 60) {
             int i = 60;

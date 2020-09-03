@@ -6,11 +6,11 @@
  * in output as it appears in the file. Notice that lines can be blank.
  */
 
-public String readEntireFile(Scanner sc) {
+public String readEntireFile(Scanner input) {
     StringBuilder text = new StringBuilder();
     
-    while(sc.hasNextLine()) {
-        text.append(sc.nextLine() + "\n");
+    while(input.hasNextLine()) {
+        text.append(input.nextLine() + "\n");
     }
     
     return text.toString();

@@ -11,10 +11,9 @@
  * that no tokens other than h, H, t, or T will be in the lines.
  */
 
-public void coinFlip(Scanner sc) {
-    while(sc.hasNextLine()) {
-//        Scanner line = new Scanner(sc.nextLine());
-        String line = sc.nextLine();
+public void coinFlip(Scanner inputc) {
+    while(input.hasNextLine()) {
+        String line = input.nextLine();
         int h = 0;
         int t = 0;
         

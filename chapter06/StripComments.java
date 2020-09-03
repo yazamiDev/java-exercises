@@ -4,11 +4,11 @@
  * then prints the file's text with all comments removed.
  */
 
-public void stripComments(Scanner sc) {
+public void stripComments(Scanner input) {
     boolean multiLineComment = false;
     
-    while(sc.hasNextLine()) {
-        String line = sc.nextLine();
+    while(input.hasNextLine()) {
+        String line = input.nextLine();
         
         boolean singleLineComment = false;
 
