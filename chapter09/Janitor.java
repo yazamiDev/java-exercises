@@ -1,9 +1,10 @@
 /**
- * Write a class HarvardLawyer to accompany the other law firm classes 
- * described in this chapter. Harvard lawyers are like normal lawyers, but 
- * they make 20% more money than a normal lawyer, they get 3 days more 
- * vacation, and they have to fill out four of the lawyer's forms to go on 
- * vacation.
+ * Write a class Janitor to accompany the other law firm classes described in 
+ * this chapter. Janitors work twice as many hours per week as other employees 
+ * (80 hours/week), they make $30,000 ($10,000 less than general employees), 
+ * they get half as much vacation as other employees (only 5 days), and they 
+ * have an additional method clean that prints "Workin' for the man." Make 
+ * sure to interact with the superclass as appropriate.
  */
 
 public class Janitor extends Employee {    
