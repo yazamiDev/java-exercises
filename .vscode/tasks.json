@@ -1,20 +1,3 @@
-// {
-//     // See https://go.microsoft.com/fwlink/?LinkId=733558
-//     // for the documentation about the tasks.json format
-//     "version": "2.0.0",
-//     "tasks": [
-//         {
-//             "label": "Compile and run",
-//             "type": "shell",
-//             "command": "javac Sample.java  && java Sample",
-//             "problemMatcher": [],
-//             "group": {
-//                 "kind": "build",
-//                 "isDefault": true
-//             }
-//         }
-//     ]
-// }
 {
     "version": "2.0.0",
     "tasks": [
@@ -37,14 +20,4 @@
             "type": "promptString"
         },
     ]
-
-    // "inputs": [
-    //     {
-    //         "id": "param1",
-    //         "description": "Param1:",
-    //         "default": "Hello",
-    //         "type": "pickString",
-    //         "options": ["Sample", "Hello"]
-    //     },
-    // ]
 }
