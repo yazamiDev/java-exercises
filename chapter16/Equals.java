@@ -28,6 +28,5 @@ public boolean equals2(LinkedIntList second) {
         i = i.next;
         j = j.next;
     }
-
     return true;
 }
