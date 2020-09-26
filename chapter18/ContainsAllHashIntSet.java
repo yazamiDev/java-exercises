@@ -8,4 +8,17 @@
  * because your set does not contain the value 7.
  */
 
- 
+public boolean containsAll(HashIntSet s) {
+    for(int i=0; i<this.elementData.length; i++) {
+        Node n = s.elementData[i];
+        
+        while(n != null) {
+            if(!this.contains(n.data)) {
+                return false;
+            }
+            n = n.next;
+        }
+    }
+    return true;
+    
+}
